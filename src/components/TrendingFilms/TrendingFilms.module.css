@@ -1,0 +1,38 @@
+.box{
+  width: 1300px;
+  margin: 0 auto;
+}
+.title {
+  margin: 0 auto;
+  padding: 0;
+  margin-left: 56px;
+}
+.img {
+    width: 300px;
+    height: 450px;
+}
+.list{
+  padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-between;
+}
+.navLink{
+  text-decoration: none;
+}
+.nameAndStars{
+  display: inline-block;
+  margin: 5px auto;
+  font-size: 14px;
+  font-weight: 700;
+}
+.nameAndStarsBox{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(178, 216, 247);
+  margin-bottom: 15px;
+}
+.stars{
+  font-size: 10px;
+}

@@ -1,0 +1,26 @@
+.boxForLinks {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0px 0px 45px 0px;
+  text-align: center;
+}
+.navLink {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  border: 3px solid #576fdb;
+  border-radius: 30px;
+  padding: 5px 7px;
+  background: #d5f7e2;
+}
+.navLink:last-child {
+  margin: 10px;
+}
+.navLink:first-child {
+  padding: 5px 20px;
+}
+.navLink:hover, navLink:focus{
+    border: 3px solid #525342;
+    background: #84f5b0;
+    color: steelblue;
+}

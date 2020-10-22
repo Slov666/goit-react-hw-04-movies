@@ -1,0 +1,15 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+}
+.navLink{
+    font-size: 20px;
+    font-weight: 700;
+}
+.notFound{
+    font-size: 20px;
+}
