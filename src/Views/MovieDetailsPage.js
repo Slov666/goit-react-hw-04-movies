@@ -31,6 +31,7 @@ export default class MovieDetailsPage extends Component {
   render() {
     const { films, error } = this.state;
     const { url, params } = this.props.match;
+    console.log(this.props.location);
     return (
       <>
         {error ? (
@@ -45,13 +46,18 @@ export default class MovieDetailsPage extends Component {
           <Loader />
         )}
 
-
         {films && (
           <div className={boxForLinks}>
-            <NavLink className={navLink} to={`${url}/cast`}>
+            <NavLink
+              className={navLink}
+              to={{ pathname: `${url}/cast`, state: this.props.location.state }}
+            >
               Cats
             </NavLink>
-            <NavLink className={navLink} to={`${url}/reviews`}>
+            <NavLink
+              className={navLink}
+              to={{ pathname: `${url}/reviews`, state: this.props.location.state }}
+            >
               Reviews
             </NavLink>
           </div>

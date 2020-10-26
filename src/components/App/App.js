@@ -6,9 +6,7 @@ import Loader from '../Loader/Loader';
 import Layout from '../Layout/Layout';
 import Navigation from '../Navigation/Navigation';
 
-// import Home from '../../Views/HomePage';
-// import MoviesPage from '../../Views/MoviesPage';
-// import MovieDetailsPage from '../../Views/MovieDetailsPage';
+
 const Home = lazy(() =>
   import('../../Views/HomePage' /* webpackChunkName: "Home" */));
 const MoviesPage = lazy(() =>

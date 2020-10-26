@@ -24,10 +24,9 @@ function FilmPage({ films, location, history }) {
   const onGoBack = () => {
     const { state } = location;
     if (state && state.from) {
-      history.push(state.from);
-      return;
+      return history.push(state.from);
     }
-    history.push(routes.home);
+    return history.push(routes.home);
   };
   return (
     <>
